@@ -1,0 +1,52 @@
+ul{
+  list-style-type: none;
+}
+
+body {
+  background-color: $light-blue;
+}
+
+h1 {
+  color: $blue;
+  text-align: center;
+}
+
+button {
+  padding: 5px;
+  float: left;
+}
+
+button:focus {
+  outline:0;
+}
+
+hr {
+  margin: 10px 15%;
+}
+
+.faq-question {
+  margin-left: 15%;
+}
+
+.question {
+  padding-left: 100px;
+  font-weight: 700;
+  line-height: 90px;
+  color: $grey;
+}
+
+.answer {
+  margin: 0 15%;
+  padding: 10px;
+  color: $grey;
+}
+
+.expand {
+  color: $black;
+  text-shadow: 5px 5px 0px rgba(0, 0, 0, 1);
+}
+
+.collapse {
+  color: $green;
+  text-shadow: 5px 5px 0px rgba(0, 0, 0, 1);
+}
